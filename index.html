@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!-- Bootstrap CSS -->
+        <link rel="icon" href="images/profil.png" type="image/icon type" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" />
+        <link rel="stylesheet" href="style.css" />
+        <title>iCat</title>
+    </head>
+    <body id="home">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+            <div class="container">
+                <img class="" src="images/profil.png" alt="" height="40px" />
+                <a class="navbar-brand fw-bold ps-3" href="#">iCat</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#project">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Dummy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Akhir navbar -->
+
+        <!-- Carousel -->
+        <div class="banner h-100">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/banner (1).jpg" class="d-block w-100 position-absolute top-50 start-50 translate-middle" alt="..." />
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Label Slide Pertama</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/banner (2).jpg" class="d-block w-100 position-absolute top-50 start-50 translate-middle" alt="..." />
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Label Slide Kedua</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/banner (3).jpg" class="d-block w-100 position-absolute top-50 start-50 translate-middle" alt="..." />
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Label Slide Ketiga</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <!-- Akhir carousel -->
+
+        <!-- About -->
+        <section id="about">
+            <div class="container">
+                <div class="row text-center justify-content-center">
+                    <div class="col-md-8">
+                        <h2>About</h2>
+                        <p class="pt-5">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ratione facere, doloribus repellendus exercitationem vel a ea impedit esse dicta asperiores dolorem necessitatibus enim, porro adipisci. Officiis
+                            molestiae, nisi magnam aut aliquam deserunt. Corrupti perspiciatis illum dolorum eos assumenda sed rem natus repellat quia, tempore sit ducimus, hic ipsum provident!
+                        </p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi iusto eligendi possimus nostrum, explicabo doloribus odio veniam porro obcaecati voluptatibus.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Akhir about -->
+
+        <!-- Contact -->
+        <section id="contact">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col">
+                        <h2>Contact Us</h2>
+                    </div>
+                </div>
+                <div class="row justify-content-center py-5">
+                    <div class="col-md-5">
+                        <form method="post" autocomplete="on" id="input-form">
+                            <div class="">
+                                <label for="nama" class="form-label">Nama lengkap</label>
+                                <input type="text" class="form-control mb-3" name="nama" id="nama" />
+                                <label for="kucing" class="form-label">Nama Kucing</label>
+                                <input type="text" class="form-control mb-3" name="kucing" id="kucing" />
+                            </div>
+                            <label class="form-label">Layanan :</label><br />
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" name="layanan[]" id="layanan" value="Layanan1" />
+                                <label class="form-check-label">Layanan 1</label><br />
+
+                                <input type="checkbox" class="form-check-input" name="layanan[]" id="layanan" value="Layanan2" />
+                                <label class="form-check-label">Layanan 2</label><br />
+
+                                <input type="checkbox" class="form-check-input" name="layanan[]" id="layanan" value="Layanan3" />
+                                <label class="form-check-label">Layanan 3</label><br />
+
+                                <input type="checkbox" class="form-check-input" name="layanan[]" id="layanan" value="Layanan4" />
+                                <label class="form-check-label">Layanan 4</label><br />
+
+                                <input type="checkbox" class="form-check-input" name="layanan[]" id="layanan" value="Layanan5" />
+                                <label class="form-check-label">Layanan 5</label>
+                            </div>
+                            <button type="button" class="btn btn-dark" onclick="gotowhatsapp()">Lanjutkan ke Whatsapp</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Akhir contact -->
+
+        <!-- Card -->
+        <section id="">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col">
+                        <h2>Apa saja layanan dari iCat?</h2>
+                    </div>
+                </div>
+                <div class="row py-5">
+                    <div class="col-md-4 mb-3">
+                        <div class="card" style="">
+                            <img src="images/banner (1).jpg" class="card-img-top" alt="..." />
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card" style="">
+                            <img src="images/banner (2).jpg" class="card-img-top" alt="..." />
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card" style="">
+                            <img src="images/banner (3).jpg" class="card-img-top" alt="..." />
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Akhir card -->
+
+        <!-- Footer -->
+        <footer class="bg-dark text-light pt-3 pb-1">
+            <div class="container text-center">
+                <p>Web iCat Indonesia &#169;2021</p>
+            </div>
+        </footer>
+        <!-- Akhir footer -->
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+        <script>
+            function gotowhatsapp() {
+                var name = document.getElementById("nama").value;
+                var kucing = document.getElementById("kucing").value;
+
+                var form = document.getElementById("input-form");
+                var myArray = [];
+
+                form.querySelectorAll("input").forEach(function (input) {
+                    if (input.type === "checkbox" && input.checked) {
+                        myArray.push(input.value);
+                    }
+                });
+
+                // Kirim whatsapp
+                var layanan = myArray.join(",%20");
+                var url = "https://wa.me/62895391703636?text=" + "Pemilik%20:%20" + name + "%0a" + "Kucing%20:%20" + kucing + "%0a" + "Aku%20mau%20:%20" + layanan + "%0a";
+
+                window.open(url, "_blank").focus();
+            }
+        </script>
+    </body>
+</html>
