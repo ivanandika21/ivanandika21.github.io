@@ -1,213 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <!-- Required meta tags -->
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-        <!-- Bootstrap CSS -->
-        <link rel="icon" href="images/profil.png" type="image/icon type" />
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" />
-
-        <title>iCat</title>
         <style>
-            @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
-            * {
-                font-family: "Quicksand", Helvetica, sans-serif;
+            .bdr-top {
+                border-top: 1px solid #0166ff;
+            }
+            .w-60 {
+                width: 60% !important;
             }
         </style>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+        <title>Artikel Kotak</title>
     </head>
-    <body id="home">
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-            <div class="container">
-                <a class="navbar-brand" href="#">
-                    <img src="images/profil.png" alt="" height="50px" class="d-inline-block align-text-center px-3" />
-                    iCat
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-link" aria-current="page" href="#">Home</a>
-                        <a class="nav-link" href="#">Features</a>
-                        <a class="nav-link" href="#">Pricing</a>
+    <body>
+        <div class="container w-60">
+            <!--  -->
+            <div class="my-5">
+                <div class="d-flex">
+                    <img src="./images/image-logokotak.png" height="150" class="me-4" alt="" />
+                    <div class="d-flex flex-column mb-2">
+                        <div class="p-2">
+                            <h2>Pengembangan Website Kotak</h2>
+                        </div>
+                        <div class="p-2">
+                            <p>Halaman artikel ini kami buat untuk memudahkan proses komunikasi antara developer dan pengguna. Disini akan selalu kami update mengenai hal-hal yang perlu diketahui oleh pengguna.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </nav>
-        <!-- Akhir navbar -->
-
-        <!-- Carousel -->
-        <div class="banner h-100">
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <!--  -->
+            <div class="my-5 bdr-top">
+                <div class="my-3">
+                    <h4>Konsep dan Ide</h4>
+                    <br />
+                    <p><b>Konsep : </b>Penyewaan kos dan kontrakan kota Salatiga</p>
+                    <p><b>Perangkat Lunak : </b> Kotak (Kos dan Kontrak)</p>
+                    <p>
+                        <b>Penjelasan</b> : Perangkat lunak yang kami rancang adalah penyewaan kos dan kontrakan khusus di kota Salatiga. Kami memilih konsep ini dengan alasan untuk memudahkan pencarian kos dan kontrakan bagi para perantau
+                        yang akan menempuh studi atau bekerja dari berbagai kota di luar kota Salatiga. Dalam perangkat lunak ini terdapat 3 aktor yaitu admin, pemilik properti, dan penyewa. Admin memiliki akses untuk mengelola seluruh
+                        bagian perangkat lunak, sedangkan pemilik properti dan penyewa memiliki akses yang terbatas pada perangkat lunak ini.
+                    </p>
                 </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="images/banner (1).jpg" class="d-block w-100 position-absolute top-50 start-50 translate-middle" alt="..." />
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Label Slide Pertama</h5>
-                            <p>Some representative placeholder content for the first slide.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="images/banner (2).jpg" class="d-block w-100 position-absolute top-50 start-50 translate-middle" alt="..." />
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Label Slide Kedua</h5>
-                            <p>Some representative placeholder content for the second slide.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="images/banner (3).jpg" class="d-block w-100 position-absolute top-50 start-50 translate-middle" alt="..." />
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Label Slide Ketiga</h5>
-                            <p>Some representative placeholder content for the third slide.</p>
-                        </div>
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
             </div>
+            <div class="my-5 bdr-top">
+                <div class="my-3">
+                    <h4>Design Thinking</h4>
+                    <p>Pada bagian ini kami melakukan beberapa tahapan yang dilakukan yaitu sebagai berikut</p>
+                    <div>
+                        <h5>1. Emphatize</h5>
+                        <p>Permasalahan yang dihadapi oleh pengguna adalah sebagai berikut.</p>
+                        <ul>
+                            <li>Sulitnya mencari informasi kos atau kontrakan di kota Salatiga</li>
+                            <li>Kesulitan mendapatkan informasi ketersediaan kamar</li>
+                            <li>Kesulitan mendapatkan informasi detail fasilitas (laundry dan rumah makan)</li>
+                            <li>Tingginya biaya administrasi di platform lain</li>
+                        </ul>
+                        <p>Dari berbagai permasalahan tersebut, kami mengembangkan lagi menjadi Define yang akan dijelaskan pada poin berikutnya.</p>
+                    </div>
+                    <div>
+                        <h5>2. Define</h5>
+                        <p>Define digunakan untuk menentukan masalah inti yang akan diidentifikasi. Define akan sangat berguna untuk menyelesaikan masalah pengguna. Untuk memudahkan, kami membuat poin-poin berikut ini.</p>
+                        <div>
+                            <img src="./images/define.png" class="w-100" alt="" />
+                            <img src="./images/how.png" class="w-100" alt="" />
+                        </div>
+                    </div>
+                    <div>
+                        <h5>3. Ideate</h5>
+                        <p>Ideate digunakan untuk mencari ide yang bertujuan untuk menyelesaikan permasalahan. Ide yang kami dapatkan kami bagi menjadi beberapa kategori serta poin-poin berikut.</p>
+                        <div>
+                            <img src="./images/ideate.png" class="w-100" alt="" />
+                            <img src="./images/prior.png" class="w-100" alt="" />
+                        </div>
+                        <br />
+                    </div>
+                    <div>
+                        <h5>4. Prototype</h5>
+                        <p>Dalam pengembangan perangkat lunak ini, beberapa desain halaman yang kami buat adalah sebagai berikut.</p>
+                        <div>
+                            <ul>
+                                <li>Halaman Home</li>
+                                <img src="./images/proto-1.png" class="w-100" alt="" /><br /><br />
+                                <li>Halaman Pencarian</li>
+                                <img src="./images/proto-2.png" class="w-100" alt="" />
+                            </ul>
+                        </div>
+                        <br />
+                    </div>
+                    <div>
+                        <h5>5. Test</h5>
+                        <p>Perangkat lunak masih dalam tahap pengembangan. Maka dari itu tahap testing dilakukan setelah pengembangan perangkat lunak.</p>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <div class="my-5 bdr-top">
+                <div class="my-3">
+                    <h4>Color Palette</h4>
+                    <p>Untuk memaksimalkan pengalaman pengguna, disini kami melakukan pemilihan warna dasar putih dengan warna lain sebagai berikut.</p>
+                    <div class="d-flex">
+                        <div class="shadow" style="width: 100px; height: 100px; background-color: #ffffff"></div>
+                        <div class="shadow" style="width: 100px; height: 100px; background-color: #1e2931"></div>
+                        <div class="shadow" style="width: 100px; height: 100px; background-color: #0166ff"></div>
+                    </div>
+                    <br />
+                    <div class="d-flex">
+                        <div style="width: 100px; height: 100px; background-color: #ffffff">#FFFFFF</div>
+                        <div style="width: 100px; height: 100px; background-color: #ffffff">#1E2931</div>
+                        <div style="width: 100px; height: 100px; background-color: #ffffff">#0166FF</div>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
         </div>
-        <!-- Akhir carousel -->
-
-        <!-- About -->
-        <section id="about">
-            <div class="container">
-                <div class="row text-center justify-content-center">
-                    <div class="col-md-8">
-                        <h2>About</h2>
-                        <p class="pt-5">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ratione facere, doloribus repellendus exercitationem vel a ea impedit esse dicta asperiores dolorem necessitatibus enim, porro adipisci. Officiis
-                            molestiae, nisi magnam aut aliquam deserunt. Corrupti perspiciatis illum dolorum eos assumenda sed rem natus repellat quia, tempore sit ducimus, hic ipsum provident!
-                        </p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi iusto eligendi possimus nostrum, explicabo doloribus odio veniam porro obcaecati voluptatibus.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Akhir about -->
-
-        <!-- Contact -->
-        <section id="contact">
-            <div class="container">
-                <div class="row text-center">
-                    <div class="col">
-                        <h2>Contact Us</h2>
-                    </div>
-                </div>
-                <div class="row justify-content-center py-5">
-                    <div class="col-md-5">
-                        <form method="post" autocomplete="on" id="input-form">
-                            <div class="">
-                                <label for="nama" class="form-label">Nama lengkap</label>
-                                <input type="text" class="form-control mb-3" name="nama" id="nama" />
-                                <label for="kucing" class="form-label">Nama Kucing</label>
-                                <input type="text" class="form-control mb-3" name="kucing" id="kucing" />
-                            </div>
-                            <label class="form-label">Layanan :</label><br />
-                            <div class="mb-3 form-check">
-                                <input type="checkbox" class="form-check-input" name="layanan[]" id="layanan" value="Layanan1" />
-                                <label class="form-check-label">Layanan 1</label><br />
-
-                                <input type="checkbox" class="form-check-input" name="layanan[]" id="layanan" value="Layanan2" />
-                                <label class="form-check-label">Layanan 2</label><br />
-
-                                <input type="checkbox" class="form-check-input" name="layanan[]" id="layanan" value="Layanan3" />
-                                <label class="form-check-label">Layanan 3</label><br />
-
-                                <input type="checkbox" class="form-check-input" name="layanan[]" id="layanan" value="Layanan4" />
-                                <label class="form-check-label">Layanan 4</label><br />
-
-                                <input type="checkbox" class="form-check-input" name="layanan[]" id="layanan" value="Layanan5" />
-                                <label class="form-check-label">Layanan 5</label>
-                            </div>
-                            <button type="button" class="btn btn-dark" onclick="gotowhatsapp()">Lanjutkan ke Whatsapp</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Akhir contact -->
-
-        <!-- Card -->
-        <section id="">
-            <div class="container">
-                <div class="row text-center">
-                    <div class="col">
-                        <h2>Apa saja layanan dari iCat?</h2>
-                    </div>
-                </div>
-                <div class="row py-5">
-                    <div class="col-md-4 mb-3">
-                        <div class="card" style="">
-                            <img src="images/banner (1).jpg" class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3">
-                        <div class="card" style="">
-                            <img src="images/banner (2).jpg" class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3">
-                        <div class="card" style="">
-                            <img src="images/banner (3).jpg" class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Akhir card -->
-
-        <!-- Footer -->
-        <footer class="bg-dark text-light pt-3 pb-1">
-            <div class="container text-center">
-                <p>Web iCat Indonesia &#169;2021</p>
-            </div>
-        </footer>
-        <!-- Akhir footer -->
-
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-        <script>
-            function gotowhatsapp() {
-                var name = document.getElementById("nama").value;
-                var kucing = document.getElementById("kucing").value;
-
-                var form = document.getElementById("input-form");
-                var myArray = [];
-
-                form.querySelectorAll("input").forEach(function (input) {
-                    if (input.type === "checkbox" && input.checked) {
-                        myArray.push(input.value);
-                    }
-                });
-
-                // Kirim whatsapp
-                var layanan = myArray.join(",%20");
-                var url = "https://wa.me/62895391703636?text=" + "Pemilik%20:%20" + name + "%0a" + "Kucing%20:%20" + kucing + "%0a" + "Aku%20mau%20:%20" + layanan + "%0a";
-
-                window.open(url, "_blank").focus();
-            }
-        </script>
+        <div class="container w-60 py-2 text-center bg-primary">
+            <a style="color: #ffffff">Copyright ©2021 - kotak.co</a>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     </body>
 </html>
