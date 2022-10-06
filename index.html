@@ -3,11 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Portofolio</title>
+    <title>ivanandikas21</title>
+    <link rel="icon" href="/images/images-ic-i.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.8/typed.min.js"></script>
     <style>
       body {
         font-family: 'Roboto Mono', monospace;
@@ -31,14 +33,17 @@
     <div class="bg-dark-gray">
       <div class="container py-5 text-center">
           <h1>Ivan Andika Surya</h1>
-          <span class="text-gold">IT Programmer Internship at PT Sumber Alfaria Trijaya Tbk</span>
+          <div>
+            <span>IT Programmer Internship </span><span class="text-gold" id="typed"></span>
+          </div>
+          
       </div>
     </div>
 
-    <div class="bg-light-gray">
-      <div class="container py-5">
+    <div class="bg-light-gray pt-5">
+      <div class="container">
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-6 pb-5">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -61,7 +66,8 @@
               </button>
             </div>
           </div>
-          <div class="col-lg-6 p-5 d-flex flex-column justify-content-center">
+          
+          <div class="col-lg-6 pb-5 d-flex flex-column justify-content-center">
             <div class="text-justify">
               <p>&#8195;I am an undergraduated student of the Informatics Engineering at the Satya Wacana Christian University. My preferred specialization is in Software Engineering, and focuses on web development;</p>
             </div>
@@ -179,6 +185,13 @@
       </div>
     </div>
 
+    <script>
+      new Typed('#typed',{
+        strings : ['at PT Sumber Alfaria Trijaya Tbk'],
+        typeSpeed : 100,
+        loop : true
+      });
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
   </body>
 </html>
