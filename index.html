@@ -1,139 +1,164 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <style>
-            @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
-            * {
-                font-family: "Quicksand", Helvetica, sans-serif;
-            }
-            .bdr-top {
-                border-top: 1px solid #0166ff;
-            }
-            .bdr-abu {
-                border-top: 1px solid #afafaf;
-            }
-            .w-60 {
-                width: 60% !important;
-            }
-            @media only screen and (max-width: 600px) {
-                .w-60 {
-                    width: 90% !important;
-                }
-            }
-        </style>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
-        <title>Artikel Kotak</title>
-        <link rel="shortcut icon" href="./images/image-logokotak.png" />
-    </head>
-    <body>
-        <div class="container w-60">
-            <!--  -->
-            <div class="my-5">
-                <div class="d-flex">
-                    <img src="./images/image-logokotak.png" height="150" class="me-4" alt="" />
-                    <div class="d-flex flex-column mb-2">
-                        <div class="p-2">
-                            <h2>Pengembangan Website Kotak</h2>
-                        </div>
-                        <div class="p-2">
-                            <p>Halaman artikel ini kami buat untuk memudahkan proses komunikasi antara developer dan pengguna. Disini akan selalu kami update mengenai hal-hal yang perlu diketahui oleh pengguna.</p>
-                        </div>
-                    </div>
-                </div>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portofolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Roboto Mono', monospace;
+        line-height: 30px;
+      }
+      .text-gold {
+        color: #E2B714;
+      }
+      .bg-dark-gray {
+        background-color: #1E1E1E;
+      }
+      .bg-light-gray {
+        background-color: #2C2C2C;
+      }
+      .border-gold {
+        border: 1px solid #E2B714;
+      }
+    </style>
+  </head>
+  <body class="text-light">
+    <div class="bg-dark-gray">
+      <div class="container py-5 text-center">
+          <h1>Ivan Andika Surya</h1>
+          <span class="text-gold">IT Programmer Internship at PT Sumber Alfaria Trijaya Tbk</span>
+      </div>
+    </div>
+
+    <div class="bg-light-gray">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-lg-6">
+            <img class="p-2 img-fluid" src="/images/images-foto.JPG" alt="">
+          </div>
+          <div class="col-lg-6 p-5 d-flex flex-column justify-content-center">
+            <div class="text-justify">
+              <p>&#8195;I am an undergraduated student of the Informatics Engineering at the Satya Wacana Christian University. My preferred specialization is in Software Engineering, and focuses on web development;</p>
             </div>
-            <!--  -->
-            <div class="my-5 bdr-top">
-                <div class="my-3">
-                    <h4>Konsep dan Ide</h4>
-                    <br />
-                    <p><b>Konsep : </b>Penyewaan kos dan kontrakan kota Salatiga</p>
-                    <p><b>Perangkat Lunak : </b> Kotak (Kos dan Kontrak)</p>
-                    <p>
-                        <b>Penjelasan</b> : Perangkat lunak yang kami rancang adalah penyewaan kos dan kontrakan khusus di kota Salatiga. Kami memilih konsep ini dengan alasan untuk memudahkan pencarian kos dan kontrakan bagi para perantau
-                        yang akan menempuh studi atau bekerja dari berbagai kota di luar kota Salatiga. Dalam perangkat lunak ini terdapat 3 aktor yaitu admin, pemilik properti, dan penyewa. Admin memiliki akses untuk mengelola seluruh
-                        bagian perangkat lunak, sedangkan pemilik properti dan penyewa memiliki akses yang terbatas pada perangkat lunak ini.
-                    </p>
-                </div>
-            </div>
-            <div class="my-5 bdr-top">
-                <div class="my-3">
-                    <h4>Design Thinking</h4>
-                    <p>Pada bagian ini kami melakukan beberapa tahapan yang dilakukan yaitu sebagai berikut</p>
-                    <div>
-                        <h5>1. Emphatize</h5>
-                        <p>Permasalahan yang dihadapi oleh pengguna adalah sebagai berikut.</p>
-                        <ul>
-                            <li>Sulitnya mencari informasi kos atau kontrakan di kota Salatiga</li>
-                            <li>Kesulitan mendapatkan informasi ketersediaan kamar</li>
-                            <li>Kesulitan mendapatkan informasi detail fasilitas (laundry dan rumah makan)</li>
-                            <li>Tingginya biaya administrasi di platform lain</li>
-                        </ul>
-                        <p>Dari berbagai permasalahan tersebut, kami mengembangkan lagi menjadi Define yang akan dijelaskan pada poin berikutnya.</p>
-                    </div>
-                    <div class="bdr-abu mb-5">
-                        <br />
-                        <h5>2. Define</h5>
-                        <p>Define digunakan untuk menentukan masalah inti yang akan diidentifikasi. Define akan sangat berguna untuk menyelesaikan masalah pengguna. Untuk memudahkan, kami membuat poin-poin berikut ini.</p>
-                        <div>
-                            <img src="./images/define.png" class="w-100" alt="" />
-                            <img src="./images/how.png" class="w-100" alt="" />
-                        </div>
-                    </div>
-                    <div class="bdr-abu mb-5">
-                        <br />
-                        <h5>3. Ideate</h5>
-                        <p>Ideate digunakan untuk mencari ide yang bertujuan untuk menyelesaikan permasalahan. Ide yang kami dapatkan kami bagi menjadi beberapa kategori serta poin-poin berikut.</p>
-                        <div>
-                            <img src="./images/ideate.png" class="w-100" alt="" />
-                            <img src="./images/prior.png" class="w-100" alt="" />
-                        </div>
-                        <br />
-                    </div>
-                    <div class="bdr-abu mb-5">
-                        <br />
-                        <h5>4. Prototype</h5>
-                        <p>Tahap prototyping diawali dengan membuat flowchart sebagai berikut.</p>
-                        <div>
-                            <img src="./images/prototyping.png" class="w-100" alt="" />
-                        </div>
-                        <br />
-                        <p>Dalam pengembangan perangkat lunak ini, beberapa desain halaman yang kami buat adalah sebagai berikut.</p>
-                        <div>
-                            <ul>
-                                <!-- <li>Halaman Home</li> 
-                                <img src="./images/prpoto-1.ng" class="w-100" alt="" /><br /><br /> -->
-                                <li>Halaman Pencarian</li>
-                                <img src="./images/proto-2.png" class="w-100" alt="" />
-                            </ul>
-                        </div>
-                        <br />
-                        <p>Untuk memaksimalkan pengalaman pengguna, disini kami melakukan pemilihan warna dasar putih dengan warna lain sebagai berikut.</p>
-                        <div class="d-flex">
-                            <div class="shadow" style="width: 100px; height: 100px; background-color: #ffffff"></div>
-                            <div class="shadow" style="width: 100px; height: 100px; background-color: #1e2931"></div>
-                            <div class="shadow" style="width: 100px; height: 100px; background-color: #0166ff"></div>
-                        </div>
-                        <br />
-                        <div class="d-flex">
-                            <div style="width: 100px; height: 100px; background-color: #ffffff">#FFFFFF</div>
-                            <div style="width: 100px; height: 100px; background-color: #ffffff">#1E2931</div>
-                            <div style="width: 100px; height: 100px; background-color: #ffffff">#0166FF</div>
-                        </div>
-                    </div>
-                    <div class="bdr-abu mb-5">
-                        <br />
-                        <h5>5. Test</h5>
-                        <p>Perangkat lunak masih dalam tahap pengembangan. Maka dari itu tahap testing dilakukan setelah pengembangan perangkat lunak.</p>
-                    </div>
-                </div>
-            </div>
-            <!--  -->
+
+            <table>
+              <tr>
+                <td style="width: 250px;">Name</td>
+                <td style="width: 50px;">:</td>
+                <td>Ivan Andika Surya</td>
+              </tr>
+              <tr>
+                <td>Place and date of birth</td>
+                <td>:</td>
+                <td>Salatiga, 21 November 2000</td>
+              </tr>
+              <tr>
+                <td>Email</td>
+                <td>:</td>
+                <td><a class="text-decoration-none text-gold" href = "mailto: ivanandikasurya21@gmail.com">ivanandikasurya21@gmail.com</a></td>
+              </tr>
+              <tr>
+                <td>WhatsApp</td>
+                <td>:</td>
+                <td><a class="text-decoration-none text-gold" href="https://wa.me/62895391703636">+62895391703636</a></td>
+              </tr>
+              <tr>
+                <td>Github</td>
+                <td>:</td>
+                <td><a class="text-decoration-none text-gold" href="https://github.com/ivanandika21">github.com/ivanandika21</a></td>
+              </tr>
+              <tr>
+                <td>Instagram</td>
+                <td>:</td>
+                <td><a class="text-decoration-none text-gold" href="https://instagram.com/ivanandikasurya">instagram.com/ivanandikasurya</a></td>
+              </tr>
+            </table>
+          </div>
         </div>
-        <div class="container-fluid w-100 py-2 text-center bg-primary">
-            <a style="color: #ffffff">Copyright ©2021 - kotak.co</a>
+      </div>
+    </div>
+
+    <div class="bg-dark-gray">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 py-5">
+            <h1>Education</h1>
+            <table>
+              <tr>
+                <td style="width: 150px;">2019 - Now</td>
+                <td>Satya Wacana Christian University;</td>
+              </tr>
+              <tr>
+                <td>2021</td>
+                <td><span class="text-gold">Dicoding Certificated Front-End Web Learning Path</span><br>Belajar Dasar Pemrograman Web;</td>
+              </tr>
+              <tr>
+                <td>2020</td>
+                <td><span class="text-gold">Dicoding Certificated Back-End Web Learning Path</span><br>Cloud Practitioner Essentials;</td>
+              </tr>
+            </table>
+          </div>
+          <div class="col-lg-6 py-5">
+            <h1>Experience</h1>
+            <table>
+              <tr>
+                <td style="width: 150px;">2021</td>
+                <td><span class="text-gold">Faculty Student Senate Functionary</span><br>Infokom Sector;</td>
+              </tr>
+              <tr>
+                <td>2021, 2022</td>
+                <td><span class="text-gold">Assistant Lecture</span><br>Operating System and Computer Graphics;</td>
+              </tr>
+              <tr>
+                <td>2022</td>
+                <td><span class="text-gold">Freelance Front-End Programmer</span><br>SWCU Psychological Test Web (Mail Template Design and Development);</td>
+              </tr>
+              <tr>
+                <td>2022</td>
+                <td><span class="text-gold">Freelance Back-End Programmer</span><br>SWCU Psychological Test Web (Mail Server: Sendgrid);</td>
+              </tr>
+            </table>
+          </div>
+          </div>
         </div>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    </body>
+      </div>
+    </div>
+
+    <div class="bg-light-gray">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 py-5">
+            <h1>Technical Skills</h1>
+            <table>
+              <ul>
+                <li><span class="text-gold">Front End Web Development</span><br>HTML, CSS, Bootstrap;</li>
+                <li><span class="text-gold">Back End Web Development</span><br>PHP - Laravel/CI, Python - Flask, Java - Spring;</li>
+                <li><span class="text-gold">Android Development</span><br>Java;</li>
+                <li><span class="text-gold">App Engine</span><br>Python;</li>
+                <li><span class="text-gold">Version Control System</span><br>Git, Github;</li>
+              </ul>
+            </table>
+          </div>
+          <div class="col-lg-6 py-5">
+            <h1>Non-Technical Skills</h1>
+            <table>
+              <ul>
+                <li>Public Speaking</li>
+                <li>Teamwork</li>
+                <li>Problem Solving</li>
+              </ul>
+            </table>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
 </html>
